@@ -1,0 +1,40 @@
+
+Connect Microsoft Dynamics CRM and Microsoft Dynamics NAV 
+
+
+Step 1 :Installation
+
+1.Enable Connector for MS Dyanmics NAV.(Go to Marketing setup  enable connector in MS Dynamics  NAV).
+2.Create ERP Integartion account.
+3.Install Connector for Ms Dynamics.( Connectors for Ms Dynamics does not need to installed on the same computer as Ms Dynamics Crm or MS Dynamics NAV,However it requires a network connection allows you to communicate with web services )
+
+(Enter the SQL server location and Database Name)
+
+
+
+Step 2:Configuration
+
+1.Configure adapter settings.
+(Click on adapter settings go to MS Dynamics NAV enter the User Name ,Password and URL and then select the organization and also select the entities that you want to integrate similarelly go to MS Dynamics CRM Enter the UserName,Password and URL then select the organization and also select the entities that you want to integrate)
+
+2.Create Integration.
+
+
+
+
+Step 3:Data Sync
+
+1.Configure Maps.
+2.Maps run order.
+
+(Activate the Maps)
+
+
+
+Step 4: Run Maps
+
+1.Run Maps to Integrate the data.
+
+
+
+
